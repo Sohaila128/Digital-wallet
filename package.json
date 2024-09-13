@@ -1,0 +1,20 @@
+{
+  "name": "Yummy",
+  "version": "1.0.0",
+  "description": "Yummy Website",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Sohaila Abo EL-Wafa",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "@srexi/purecounterjs": "^1.5.0"
+  }
+}

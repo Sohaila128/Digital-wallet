@@ -1,0 +1,190 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #201F21;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(206, 18, 18)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+header {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header.sticked {
+  border-color: #fff;
+  border-color: #eee;
+}
+
+header nav ul li a::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #EC1C2E;
+  transition: 0.5s;
+  margin: auto;
+  display: block;
+}
+header nav ul li a:hover::after {
+  width: 100%;
+  color: black;
+}
+header nav ul li a .navbar-brand img {
+  width: 110px;
+  height: 60px;
+}
+
+.line {
+  margin: 5px auto;
+  width: 10%;
+  border: 2px solid #EC1C2E !important;
+}
+
+.phone img {
+  height: 450px !important;
+}
+
+.features-section .bg-card {
+  background: linear-gradient(153.47deg, rgba(218, 204, 204, 0) -341.94%, #000000 125.17%);
+  color: white !important;
+}
+.features-section .card-icon {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+}
+.features-section .card-features:hover {
+  transform: translateY(-0.5rem);
+  transition: 0.2s linear;
+  background: linear-gradient(153.47deg, rgba(247, 238, 238, 0.582) -341.94%, #e06060 115.17%);
+}
+.features-section img {
+  transition: 0.2s linear;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #201F21;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #EC1C2E !important;
+}
+
+.accordion-button {
+  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #0f0f0f 125.17%);
+  color: white !important;
+  border-radius: 20px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  color: #EC1C2E !important;
+}
+
+.accordion-button.collapsed[data-bs-toggle=collapse]::after {
+  color: #EC1C2E !important;
+}
+
+.accordion-button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.accordion:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-radius: 10px !important;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23EC1C2E'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: rgba(0, 0, 0, 0.125);
+  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #0f0f0f 125.17%);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-body {
+  background-color: black !important;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  transform: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.accordion-item {
+  transform: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.accordion:focus {
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 50px !important;
+  background-color: transparent !important;
+}
+
+.order-section .form-control {
+  outline: none;
+  border: none;
+}
+.order-section .form-control:focus {
+  border: none !important;
+  outline: none !important;
+}
+.order-section textarea {
+  resize: none;
+}
+.order-section .bg-success.form-control {
+  color: white;
+}
+
+.contactus-section .contact-img {
+  width: 100%;
+  max-width: 90%;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  z-index: 2 !important;
+}
+
+.card-bg {
+  background-color: #201F21;
+}
